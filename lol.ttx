@@ -131,6 +131,9 @@
   <loca>
   </loca>
 
+  <name>
+  </name>
+
   <hmtx>
     <mtx name=".notdef" width="&xheight;" lsb="0"/>
     <mtx name="space" width="&thickness;*2+&bearing;*2" lsb="0"/>
@@ -177,4 +180,276 @@
     </cmap_format_4>
   </cmap>
 
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <ScriptRecord index="0">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="0"/>
+            <FeatureIndex index="0" value="0"/>
+          </DefaultLangSys>
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <FeatureRecord index="0">
+        <FeatureTag value="rlig"/>
+        <Feature>
+          <LookupListIndex index="0" value="1"/>
+          <LookupListIndex index="0" value="2"/>
+          <LookupListIndex index="0" value="3"/>
+          <LookupListIndex index="0" value="4"/>
+          <LookupListIndex index="0" value="5"/>
+          <LookupListIndex index="0" value="6"/>
+          <LookupListIndex index="0" value="7"/>
+          <LookupListIndex index="0" value="8"/>
+          <LookupListIndex index="0" value="9"/>
+          <LookupListIndex index="0" value="10"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!--Lookup>
+        <LookupFlag value="0"/>
+        <SingleSubst>
+         <Substitution in="o" out="l"/>
+       </SingleSubst>
+      </Lookup-->
+      <Lookup>
+        <LookupFlag value="0"/>
+        <MultipleSubst Format="1">
+          <Coverage Format="1">
+            <Glyph value="o"/>
+          </Coverage>
+          <Sequence>
+            <Substitute value="o"/>
+            <Substitute value="l"/>
+            <Substitute value="o"/>
+          </Sequence>
+        </MultipleSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup>
+        <LookupFlag value="0"/>
+        <ChainContextSubst Format="3">
+          <BacktrackCoverage><Glyph value="l"/></BacktrackCoverage>
+          <InputCoverage><Glyph value="o"/></InputCoverage>
+          <LookAheadCoverage><Glyph value="l"/></LookAheadCoverage>
+          <SubstLookupRecord>
+          <SequenceIndex value="0"/><LookupListIndex value="0"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
 </ttFont>
