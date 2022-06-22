@@ -1,6 +1,5 @@
-TTX_FILES = lol.ttx
+TTX_FILES = lol1k.ttx lol1m.ttx
 TTF_FILES = $(TTX_FILES:%.ttx=%.ttf)
-HTML_FILES = $(TTX_FILES:%.ttx=%.html)
 all: $(TTF_FILES)
 
 %.ttf: %.ttx
@@ -11,6 +10,3 @@ all: $(TTF_FILES)
 		echo -n "data:application/x-font-ttf;base64,"; \
 		uuencode -m $^ < $^ | head -n -1 | tail -n +2 | tr -d '\n'; \
 	} > $@
-
-#clean:
-#	rm -f tofu.ttf tofu.ttf.base64
