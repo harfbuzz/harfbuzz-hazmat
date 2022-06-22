@@ -1,4 +1,4 @@
-TTX_FILES = lol1k.ttx lol1m.ttx
+TTX_FILES = lol1k.ttx lol1m.ttx lol1b.ttx
 TTF_FILES = $(TTX_FILES:%.ttx=%.ttf)
 all: $(TTF_FILES)
 
